@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "JosefinSans Bold";
+    src: url("./fonts/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("./fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans ExtraBold";
+    src: url("./fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "JosefinSans Regular";
+    src: url("./fonts/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Champagne";
+    src: url("./fonts/Champagne\ &\ Limousines.ttf");
+}
+
+@font-face {
+    font-family: "Champagne Bold";
+    src: url("./fonts/Champagne\ &\ Limousines\ Bold.ttf");
+}
+
+@font-face {
+    font-family: "Champagne Italic";
+    src: url("./fonts/Champagne\ &\ Limousines\ Italic.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans light";
+    src: url("./fonts/OpenSans/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Comic Cat";
+    src: url("./fonts/Comic_CAT.otf");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url("./img/main/tomato.png") no-repeat,
+        url("./img/main/petrucho2.png") no-repeat,
+        url("./img/main/petrucho.png") no-repeat,
+        url("./img/main/pepper.png") no-repeat,
+        url("./img/main/slicedTomato.png") no-repeat,
+        url("./img/main/petrucho2.png") no-repeat,
+        url("./img/body/background.png") no-repeat;
+    background-position: 105% center, 95% 40%, 95% 34%, 95% 90%, 90% 10%,
+        91% 70%, right center;
+    background-size: 20%, 7%, 5%, 10%, 8%, 5%, contain;
+    overflow: hidden;
+}
+
+#root {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}

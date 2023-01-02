@@ -1,0 +1,36 @@
+.buyButton {
+    margin-left: 40px;
+    height: 80px;
+    width: 300px;
+    border: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: -5px 10px 10px rgba($color: #000000, $alpha: 0.4);
+    &:hover {
+        cursor: pointer;
+    }
+
+    .text {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        font-family: "Champagne Bold";
+    }
+
+    .background {
+        background-color: #f48f1d;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        width: 85px;
+        margin-left: 5px;
+    }
+    img {
+        width: 30px;
+    }
+}

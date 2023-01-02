@@ -1,0 +1,45 @@
+.counter {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    border: 2px solid #f48f1d;
+    height: 60px;
+    align-items: center;
+    border-radius: 100px;
+    .counter__value {
+        font-size: 30px;
+        color: #f48f1d;
+        font-family: "Champagne Bold";
+    }
+    .counter__up-arrow,
+    .counter__botom-arrow:hover {
+        cursor: pointer;
+    }
+    .counter__up-arrow {
+        transform: rotate(180deg);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        .counter__border {
+            height: 60%;
+            width: 2px;
+            margin-left: 15px;
+            background-color: #777777;
+        }
+    }
+    .counter__botom-arrow {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15px;
+        .counter__border {
+            height: 60%;
+            width: 2px;
+            margin-left: 15px;
+            background-color: #777777;
+        }
+    }
+}

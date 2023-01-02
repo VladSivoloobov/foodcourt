@@ -1,0 +1,107 @@
+.main {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    .main__right {
+        height: 100%;
+        .right__image {
+            height: 85%;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            .image__food {
+                width: 140%;
+                position: absolute;
+                left: -27%;
+                top: 0;
+                display: block;
+            }
+            .image__title {
+                font-family: "Champagne Bold";
+                color: white;
+                height: 80%;
+                width: 400px;
+                background-color: #d77e1a;
+                border-radius: 0 0 30px 30px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                flex-direction: column;
+                .title__content {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    .title__name,
+                    .title__rating {
+                        font-size: 40px;
+                        img {
+                            margin-right: 5px;
+                        }
+                    }
+                    margin-bottom: 20px;
+                }
+                .title__time {
+                    width: 70%;
+                    height: 50px;
+                    background-color: #000000;
+                    color: white;
+                    border-radius: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 30px;
+                    font-size: 20px;
+                    display: flex;
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .main__left {
+        align-self: flex-start;
+        width: 55%;
+
+        .left__title {
+            margin-top: 30px;
+            .title__bold {
+                font-size: 80px;
+                font-family: "Comic Cat";
+                font-weight: 100;
+                margin-bottom: -40px;
+                padding: 0;
+                font-weight: bold;
+            }
+            .title__thin {
+                font-family: "Comic Cat";
+                font-size: 60px;
+                font-weight: lighter;
+                margin-bottom: 10px;
+            }
+        }
+        .left__description {
+            .description__text {
+                font-family: "Champagne bold";
+                font-size: 25px;
+                max-width: 550px;
+                color: #777777;
+            }
+        }
+        .left__price {
+            font-family: "Champagne";
+            font-size: 50px;
+            font-weight: lighter;
+            margin-bottom: 20px;
+            .price__bold {
+                font-family: "Comic Cat";
+            }
+        }
+        .left__buttons {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

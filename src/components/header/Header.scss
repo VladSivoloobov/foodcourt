@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    .header__logo {
+        font-size: 30px;
+        font-family: "JosefinSans Bold";
+        text-transform: uppercase;
+        .logo__green-letter {
+            color: #7bb03a;
+        }
+        .logo__orange-letter {
+            color: #f48f1d;
+        }
+        .logo__red-letter {
+            color: #d5585a;
+        }
+    }
+    .header__links {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        .links__link {
+            margin-right: 30px;
+            a {
+                font-family: "Champagne Bold";
+                font-size: 20px;
+                color: #777777;
+                text-decoration: none;
+                transition: color 0.2s;
+                &:hover:not(.links__link.active a) {
+                    color: rgb(65, 65, 65);
+                }
+            }
+        }
+        .links__link.active {
+            a {
+                color: black;
+            }
+        }
+    }
+    .header__buttons {
+        margin-right: 15px;
+        a {
+            margin-right: 30px;
+            text-decoration: none;
+            color: black;
+        }
+        .buttons__cart {
+            position: relative;
+            .cart__counter {
+                font-family: "Champagne Bold";
+                position: absolute;
+                background-color: #f48f1d;
+                width: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: -100%;
+                height: 18px;
+                border-radius: 100%;
+                color: white;
+                right: -50%;
+            }
+        }
+    }
+    .header__account {
+        display: flex;
+        button {
+            border-radius: 20px;
+            padding: 5px 20px;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-family: "OpenSans";
+            transition: all 0.2s;
+            &:hover {
+                cursor: pointer;
+            }
+            img {
+                margin-right: 5px;
+            }
+        }
+        .account__registration {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+            &:hover {
+                background: rgb(0, 0, 0);
+                border: 2px solid rgb(49, 49, 49);
+            }
+        }
+        .account__autentification {
+            background: #f48f1d;
+            border: 2px solid #f48f1d;
+            &:hover {
+                background: #ffb259;
+                border: 2px solid #ffb259;
+            }
+        }
+    }
+}

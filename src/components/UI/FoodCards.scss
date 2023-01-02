@@ -1,0 +1,65 @@
+.FoodCards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    .foodCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img {
+            background-color: white;
+            border-radius: 100%;
+            padding: 5px;
+            width: 80px;
+        }
+        align-items: center;
+        height: 160px;
+        padding: 0 5px;
+        width: 100px;
+        border-radius: 20px;
+        &.green {
+            background-color: #e2ffc3;
+        }
+        &.purple {
+            background-color: #fce5cd;
+        }
+        &.pinked {
+            background-color: #fee1ed;
+        }
+        .name {
+            margin: 5px 0;
+            font-family: "Champagne Bold";
+            font-size: 20px;
+        }
+        .dollar {
+            color: #c92325;
+        }
+
+        .price {
+            font-family: "Champagne Bold";
+        }
+    }
+    .rightArrow {
+        transform: rotate(180deg);
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        box-shadow: 2px -5px 5px rgba(0, 0, 0, 0.308);
+    }
+    .leftArrow {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.308);
+    }
+}
